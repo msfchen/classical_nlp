@@ -1,4 +1,4 @@
-# classical_nlp
+# Classical NLP
 
 This repository contains NLP projects using classical approaches.
 
