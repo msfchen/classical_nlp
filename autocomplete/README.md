@@ -12,7 +12,7 @@
       - modify the data by converting all the other words that are not part of the closed vocabulary to the token 'unk'.
         
   - Develop N-gram Language Model:
-    - def count_n_grams(data, n, start_token='<s>', end_token = '<e>') returns a dictionary that maps a tuple of n-words to its frequency
+    - def count_n_grams(data, n, start_token='\<s\>', end_token = '\<e\>') returns a dictionary that maps a tuple of n-words to its frequency
     - def estimate_probability(word, previous_n_gram, n_gram_counts, n_plus1_gram_counts, vocabulary_size, k=1.0) returns a probability using k-smoothing.
       - P(w_t|w_t-n, ..., w_t-1) = (C(w_t-n, ..., w_t-1, w_t)+k) / (C(w_t-n, ..., w_t-1)+k|V|)
     - def estimate_probabilities(previous_n_gram, n_gram_counts, n_plus1_gram_counts, vocabulary, k=1.0) returns a dictionary mapping from next words to the probability.
