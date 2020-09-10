@@ -1,7 +1,5 @@
 # Spelling Correction
 
-[6/29/2020, Coursera NLP Specialization]
-
 - Goal: to suggest the top n most likely correctly spelled words that are 1 and 2 edit distance from the mis-spelled word 
 - Approach: probability of a word being correct P(c|w) = P(w|c) * P(c) / P(w) where P(w|c) is the probability of having a word w given that it is correct, P(c) is the probability of being correct in general, and P(w) is the probability of the word w appearing in general.
 

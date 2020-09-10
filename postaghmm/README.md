@@ -1,7 +1,5 @@
 # Part-of-Speech, POS, Tagging using Viterbi Algorithm
 
-[6/29/2020, Coursera NLP Specialization]
-
 - Goal: to assign the most likely part-of-speech tag (Noun, Verb, Adjective...) to each word in an input word_seq
 - Approach: Viterbi algorithm using dynamic programming
 
