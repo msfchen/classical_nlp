@@ -1,6 +1,6 @@
 # Classical Natural Language Processing
 
-This repository contains NLP projects using classical approaches, without machine learning.
+This repository contains NLP projects using classical approaches, without word vectors.
 
 ## Bayesian Probability
 
