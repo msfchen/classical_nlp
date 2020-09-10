@@ -12,6 +12,10 @@ This repository contains NLP projects using classical approaches, without word v
   - Goal: to suggest the most likely next word and show its probability for the given previous N words 
   - Approach: N-gram Language Model (P(w_t|w_t-n, ..., w_t-1))
 
+* [Sentiment Prediction with Naive Bayes Classifier](https://github.com/msfchen/classical_nlp/tree/master/sentimentpred):
+  - Goal: to predict positive/negative sentiment of the given text
+  - Approach: Naive Bayes Classifier
+  
 ## Hidden Markov Models
 
 * [Part-of-Speech, POS, Tagging with Viterbi Algorithm](https://github.com/msfchen/classical_nlp/tree/master/postaghmm): 
